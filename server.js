@@ -52,8 +52,8 @@ app.use(function(err, req, res, next) {
       .send(err.message || 'SERVER ERROR');
   }  
 })
-
+//process.env.PORT or 3000
 app.listen(process.env.PORT, function () {
-  console.log('Node.js listening ...');
+  console.log('Node.js listening ...',);
 });
 
